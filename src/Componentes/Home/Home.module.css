@@ -1,0 +1,16 @@
+.div{
+display: flex;
+flex-direction: row;
+background-color: aquamarine;
+}
+
+.p{
+
+    background-color: brown;
+}
+
+.img{
+
+    background-color: pink;
+    width: 30rem;
+}

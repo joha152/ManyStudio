@@ -1,5 +1,5 @@
 import React from "react";
-import Button from '@mui/material/Button';
+import logo from "../../../imagenes/ManyStudio.png"
 import { NavLink } from "react-router-dom";
 import style from "./Navbar.module.css"
 
@@ -8,30 +8,28 @@ const Navbar = () => {
 
     return (
         <>
-        <nav className={style.nav}>
+            <nav className={style.nav}>
 
- 
-            <NavLink to="/">
-                <div className={style.button}>
-                <Button color="secondary" style={{ fontSize: '20px',  margin: '10px', padding: '8px'}}>HOME</Button>
-                </div>
-            </NavLink>
+                <NavLink to="/" >
+                    <button className={style.button}>HOME</button>
+                </NavLink>
 
-            <NavLink to="/quienesSomos">
-            <div className={style.button}>
-                <Button color="secondary" style={{ fontSize: '20px',  margin: '10px', padding: '8px' }}>QUIENES SOMOS</Button>
-                </div>
-            </NavLink>
+                <NavLink to="/quienessomos">
+                    <button className={style.button}>QUIENES SOMOS</button>
+                </NavLink>
 
-            <NavLink to="/galeria">
-                <Button color="secondary" style={{ fontSize: '20px',  margin: '10px', padding: '8px' }}>GALERIA</Button>
-            </NavLink>
+                <img src={logo} alt="logo" style={{ height: '6rem' }} />
 
-            <NavLink to="/contacto">
-                <Button color="secondary" style={{ fontSize: '20px',  margin: '10px', padding: '8px' }}>CONTACTO</Button>
-            </NavLink>
+                <NavLink to="/galeria">
+                    <button className={style.button}>GALERIA</button>
+                </NavLink>
 
-        </nav>
+                <NavLink to="/contacto">
+                    <button className={style.button}>CONTACTO</button>
+                </NavLink>
+
+            </nav>
+
         </>
     )
 
