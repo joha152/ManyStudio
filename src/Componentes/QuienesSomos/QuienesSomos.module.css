@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&family=Nunito&family=Roboto:ital,wght@1,300&display=swap');
+
+
 .conteiner{
     margin-top: 6rem;
     margin-bottom: 6rem;
@@ -5,9 +8,34 @@
 
 .conteiner h1{
     color: #f5b04b;
+font-family: 'nunito';
+}
 
+.conteiner h2{
+    color: #f5b04b;
+    font-family: 'nunito';
+}
+
+.conteiner h3{
+    color: #45373e;
+    font-family: 'nunito';
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 
 .conteiner p{
     color: #45373e;
+    font-family: 'nunito';
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+.button{
+
+    background-color: #e00b5b;
+    height: 4rem;
+font-size: 1.5rem;
+padding: .9;
+font-family: 'Nunito', sans-serif;
 }

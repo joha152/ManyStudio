@@ -1,10 +1,15 @@
 import React from "react";
+import style from "./Contacto.module.css"
 
 const Contacto = ()=>{
 
     return (
         <>
-        <h1>soy el contacto</h1>
+        <div className={style.contenedor}>
+
+        <button>Contactate</button>
+        <button>Agendar cita</button>
+        </div>
         </>
     )
 }

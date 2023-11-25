@@ -1,0 +1,25 @@
+body{
+    background-image: url(../../../imagenes/fondo2.png);
+
+}
+
+.contenedor{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+width: 40rem;
+}
+
+.contenedor button{
+
+    height: 4rem;
+    width: 15rem;
+    font-family: 'Nunito', sans-serif;
+    background-color: #e00b5b;
+    
+font-size: 1.5rem;
+padding: .9;
+font-family: 'Nunito', sans-serif;
+}
