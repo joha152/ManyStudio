@@ -10,11 +10,13 @@ const Home = () => {
         <>
 
             <div classname={style.div}>
-                 <img src={uñas} alt="ama tus uñas"  style={{ height: '35rem', marginTop: "5rem", marginRight: "35rem"}}/>
+                <img src={uñas} alt="ama tus uñas" style={{ height: '35rem', marginTop: "5rem", marginRight: "35rem" }} />
 
-<p >
-    hola somos nail many studio, un lugar en donde te cortan los dedos y sos feliz
-</p>
+                <p >
+                    ¡Descubre la excelencia en el cuidado de tus uñas en ManyStudio!
+
+
+                </p>
             </div>
 
         </>
