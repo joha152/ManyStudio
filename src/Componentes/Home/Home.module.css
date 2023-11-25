@@ -1,4 +1,4 @@
-.div{
+/* .div{
 display: flex;
 flex-direction: row;
 background-color: aquamarine;
@@ -13,4 +13,74 @@ background-color: aquamarine;
 
     background-color: pink;
     width: 30rem;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&family=Nunito&display=swap');
+
+
+.div {
+    display: flex;
+    flex-direction: row;   
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+.p {
+   text-align: center;
+    margin-left: 10px; /* Ajusta el margen izquierdo según sea necesario */
+    margin-right: 4rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 60px;
+}
+
+.img {
+   
+    width: 30rem;
+    height: 35rem;
+    margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
+    margin-left: 10rem;
+}
+
+
+
+.div {
+    display: flex;
+    flex-direction: row;   
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+.p {
+    text-align: center;
+    margin-left: 10px; /* Ajusta el margen izquierdo según sea necesario */
+    margin-right: 4rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 60px;
+}
+
+.img {
+    width: 30rem;
+    height: 35rem;
+    margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
+    margin-left: 10rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p {
+        margin-left: 0; /* Reinicia el margen izquierdo */
+        margin-right: 0; /* Reinicia el margen derecho */
+        font-size: 30px;
+        margin-top: 20rem;
+    }
+
+    .img {
+        margin-left: 0; /* Reinicia el margen izquierdo */
+        margin-right: 0; /* Reinicia el margen derecho */
+    }
 }

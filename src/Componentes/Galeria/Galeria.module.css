@@ -1,0 +1,38 @@
+/* Carousel.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&family=Nunito&display=swap');
+
+.h1{
+    font-family: 'Nunito';
+    color: #e00b5b
+}
+
+.carousel-container {
+  width: 50%;
+margin-left: 90px;
+  margin-top: 20px;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: #fff;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #ccc;
+}
+
+.slick-dots {
+  bottom: 10px;
+}
+
+.slick-dots li button {
+  font-size: 10px;
+  color: #ccc;
+}
+
+.slick-dots li.slick-active button {
+  color: #fff;
+}

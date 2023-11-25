@@ -18,7 +18,7 @@ const Navbar = () => {
                     <button className={style.button}>QUIENES SOMOS</button>
                 </NavLink>
 
-                <img src={logo} alt="logo" style={{ height: '6rem' }} />
+                <img src={logo} alt="logo" style={{ height: '6 rem' }} />
 
                 <NavLink to="/galeria">
                     <button className={style.button}>GALERIA</button>

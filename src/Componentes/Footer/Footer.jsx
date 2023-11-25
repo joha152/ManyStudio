@@ -1,13 +1,17 @@
 import React from "react";
+import style from "./Footer.module.css";
 
 
-const Footer = ()=>{
+const Footer = () => {
 
     return (
 
         <>
-        <h1>soy el footer</h1>
-        
+            <div className={style.footer}>
+                <h1 style={{fontSize: '24px'}}>PageCreator</h1>
+                <h3>Derechos reservados. No toque</h3>
+            </div>
+
         </>
     )
 }

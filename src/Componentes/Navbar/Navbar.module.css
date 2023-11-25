@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&family=Nunito&display=swap');
+
 .nav{
     display: inline;
     position: fixed;
@@ -8,8 +10,8 @@
     display: flex;
     flex-direction: row;  
     justify-content: center; 
-   
-    background-color: white;
+   height: 6rem;
+    background-color: #f7d5ae;
     width: 100%;
     
 }
@@ -17,10 +19,27 @@
 .button{
     margin: 2rem;
     padding: 1.5rem;
-    background-color: #eaf27e;
-    color: #ff6179;
+    background-color:transparent;
+    color: #e00b5b;
+    font-size: 20px;
     width: fit-content;
-    height: 3rem;
+    height: fit-content;
     text-align: center;
     padding: 10px 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content; /* Ajusta la altura según sea necesario */
+      position: absolute;
+    }
+
+    .button {
+        margin: 1rem;
+       
+        font-size: 16px;
+    }
 }
